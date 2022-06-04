@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'roboto', Courier, monospace;
+	font-family: 'roboto';
 	background: #7b4397;
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
     background: linear-gradient(to right, #dc2430, #7b4397);
@@ -26,6 +26,14 @@ div ul li {
     display: inline;
 }
 
+header{
+		background-image: url(/assets/images/header.J1.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 70vh;
+		margin: 0;
+	}
+
 div ul li a {
     text-decoration: none;
     color: white;
@@ -34,4 +42,13 @@ div ul li a {
     padding-right: 80px;
     padding-top: 20px;
     text-shadow: 10px 10px 10px black;
+}
+
+header div p{
+	color: rgb(200,42,69);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 400px;
+padding-left: 900px;
+font-size: 40px;
+/* position: relative; */
 }
