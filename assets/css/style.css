@@ -1,0 +1,9 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto', Courier, monospace;
+	background: #7b4397;
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    background: linear-gradient(to right, #dc2430, #7b4397);
+
+}
