@@ -7,3 +7,31 @@ body{
     background: linear-gradient(to right, #dc2430, #7b4397);
 
 }
+
+nav #top-nav{
+	display: flex;
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+	padding-right: 200px;
+}
+
+div .nav-right{
+	margin-top: 20px;
+}
+
+div ul li {
+    display: inline;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    padding-right: 80px;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px black;
+}
