@@ -15,7 +15,7 @@ nav #top-nav{
 #logo{
 	width: 150px;
 	height: 150px;
-	padding-right: 130px;
+	padding-right: 100px;
 }
 
 div .nav-right{
@@ -47,7 +47,7 @@ div ul li a {
 header div p{
 	color: rgb(200,42,69);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding-top: 270px;
+padding-top: 230px;
 padding-left: 750px;
 font-size: 40px;
 position: relative;
@@ -65,7 +65,7 @@ button{
 	padding-right: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-right: 60px;
+	margin-right: 50px;
 	float: right;
 	border-radius: 10px;
 	cursor: pointer;
@@ -117,6 +117,27 @@ div .images{
 	text-align: center;
 }
 
+div.main_footer{
+	background-color:#000;
+	color: #ffffff;
+	display: flex;
+}
+
+div #icon{
+	width: 30px;
+}
+
+div .footer-right1{
+	margin-top: 70px;
+	margin-left: 60px;
+}
+
+div .footer-right2{
+	margin-top: 60px;
+	margin-left: 500px;
+	
+}
+
 
 @media screen and (max-width: 1200px) {
 	nav #top-nav{
@@ -129,18 +150,17 @@ div .images{
 		text-decoration: none;
 		color: white;
 		font-weight: 900;
-		font-size: 15px;
-		padding-right: 10px;
+		font-size: 20px;
+		padding-right: 30px;
 		padding-top: 20px;
 		text-shadow: 10px 10px 10px black;
 	}
 	header div p{
 		color: rgb(200,42,69);
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 10px;
-	padding-top: 0px;
+	font-size: 30px;
+	padding-top: 20px;
     padding-left: 10px;
-    font-size: 40px;
     position: relative;
 	}
 	button{
