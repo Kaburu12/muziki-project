@@ -117,8 +117,17 @@ div .images{
 	text-align: center;
 }
 
-div.main_footer{
+iframe{
+	width: 100%;
+}
+
+#footer-cont{
 	background-color:#000;
+	padding-bottom: 20px;
+}
+
+
+div.main_footer{
 	color: #ffffff;
 	display: flex;
 }
@@ -129,15 +138,29 @@ div #icon{
 
 div .footer-right1{
 	margin-top: 70px;
-	margin-left: 60px;
+	margin-left: 300px;
 }
 
 div .footer-right2{
 	margin-top: 60px;
-	margin-left: 500px;
+	margin-left: 300px;
 	
 }
 
+footer div p{
+	color: #ffffff;
+}
+
+#copyright{
+	color: #ffffff;
+	padding-left: 40px;
+}
+
+#designed{
+	color: #ffffff;
+	padding-right: 85px;
+	float: right;
+}
 
 @media screen and (max-width: 1200px) {
 	nav #top-nav{
