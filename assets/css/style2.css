@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto';
+	background: #7b4397;
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    background: linear-gradient(to right, #dc2430, #7b4397);
+
+}
+
+nav #top-nav{
+	display: flex;
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+	padding-right: 100px;
+}
+
+div .nav-right{
+	margin-top: 30px;
+}
+
+div ul li {
+    display: inline;
+}
+
+header{
+		background-image: url(/assets/images/header.J1.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 70vh;
+		margin: 0;
+	}
+
+div ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    padding-right: 90px;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px black;
+}
+
+hr{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h2{
+	text-align: center;
+	font-size:40px;
+}
