@@ -47,8 +47,25 @@ div ul li a {
 header div p{
 	color: rgb(200,42,69);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding-top: 400px;
-padding-left: 900px;
+padding-top: 300px;
+padding-left: 800px;
 font-size: 40px;
-/* position: relative; */
+position: relative;
+}
+
+button{
+	background-color:#ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 60px;
+	float: right;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: x-large;
+}
+
+span{
+	color: rgb(200,42,69);
 }
