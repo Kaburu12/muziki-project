@@ -23,13 +23,13 @@
 						<a href="./assets/pages/page2.html">Album</a>
 					</li>
 					<li>
-						<a href="#subscribe">Subscribe</a>
-					</li>
-					<li>
 						<a href="./assets/pages/page2.html">Log In</a>
 					</li>
 					<li>
 						<a href="#subscribe">Sign Up</a>
+					</li>
+					<li>
+						<a href="./assets/pages/page2.html"><input id="button" type="button" onclick="clickAlert()" value="Subscribe"></a>
 					</li>
 				</ul>
 			</div>
@@ -53,10 +53,10 @@
 <div>
 	<div class="members"><h2>Band Members <hr></h2></div>
 	<div id="band-members">
-		<div class="images"><img src="./assets/images/member1.png" alt="member1"> <p>Name: Dan Chagala</p> <p>Guitarist</p> <p>Director</p></div>
-		<div class="images"><img src="./assets/images/member1.png" alt="member1"> <p>Name: Dan Chagala</p> <p>Violinist</p> <p>Secretary</p></div>
-		<div class="images"><img src="./assets/images/member1.png" alt="member1"> <p>Name: Dan Chagala</p> <p>Vocalist</p> <p>Event organizer</p></div>
-		<div class="images"><img src="./assets/images/member1.png" alt="member1"> <p>Name: Dan Chagala</p> <p>Saxophonist</p> <p>Instrumentalist</p></div>
+		<div class="images"><img onmouseover="mouseOverImg(this)" onmouseout="standardImg(this)" src="./assets/images/member1.png" alt="member1" width="200px" height="200px"> <p>Name: Dan Chagala</p> <p>Guitarist</p> <p>Director</p></div>
+		<div class="images"><img onmouseover="mouseOverImg(this)" onmouseout="standardImg(this)"  src="./assets/images/member1.png" alt="member1" width="200px" height="200px"> <p>Name: Dan Chagala</p> <p>Violinist</p> <p>Sponsor</p></div>
+		<div class="images"><img onmouseover="mouseOverImg(this)" onmouseout="standardImg(this)" src="./assets/images/member1.png" alt="member1" width="200px" height="200px"> <p>Name: Dan Chagala</p> <p>Vocalist</p> <p>Event organizer</p></div>
+		<div class="images"><img onmouseover="mouseOverImg(this)" onmouseout="standardImg(this)" src="./assets/images/member1.png" alt="member1" width="200px" height="200px"> <p>Name: Dan Chagala</p> <p>Saxophonist</p> <p>Instrumentalist</p></div>
 	</div>
 </div>
 <!--Trending videos-->
@@ -72,7 +72,7 @@
 	<div id="footer-cont">
 	<div class="main_footer">
             <div class="left">
-                <img src="./assets/images/Muziki-logo.png" alt="logo" >
+                <img src="./assets/images/Muziki-logo.png" alt="logo" width="200px">
             </div> <br>
             <div class="footer-right1 ">
                <a href="#"><img  id="icon" src="./assets/images/twitter.png" alt="twitter"></a>
@@ -91,16 +91,6 @@
 	</p>
 </div>
 </footer>
-<script src="./assets/js/index.js">
-	function bigImg(x) {
-  x.style.height = "64px";
-  x.style.width = "64px";
-}
-
-function normalImg(x) {
-  x.style.height = "32px";
-  x.style.width = "32px";
-}
-</script>
+<script src="./assets/js/index.js"></script>
 </body>
 </html>
