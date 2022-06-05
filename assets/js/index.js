@@ -1,22 +1,20 @@
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function nextSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("slideshow");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex - 1].style.display = "block";
-}
-
+//	mouseover function
+function mouseOverImg(x) {
+    x.style.height = "250px";
+    x.style.width = "250px";
+    x.style.cursor="pointer"
+  }
+  
+  function standardImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+  }
+  
+  //alert message onclick  subscription button
+  const input = document.getElementById('button');
+  
+  function onClickAlert() {
+    alert("Thank You For Subscribing with Us");
+  }
+  
+  input.addEventListener('click', onClickAlert);
