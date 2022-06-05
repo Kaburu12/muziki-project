@@ -25,7 +25,7 @@ function showSlides(n) {
 const input = document.getElementById('button');
 
 function onClickAlert() {
-  alert("Thank You For Subscribing with Us");
+    alert("Already Subscribed");
 }
 
 input.addEventListener('click', onClickAlert);
