@@ -149,6 +149,7 @@ div .footer-right1 {
 div .footer-right2 {
     margin-top: 60px;
     margin-left: 300px;
+    text-align: center;
 }
 
 footer div p {
@@ -166,7 +167,8 @@ footer div p {
     float: right;
 }
 
-@media screen and (max-width: 1100px) {
+/*media query with max width 1200px*/
+@media screen and (max-width: 1200px) {
     nav #top-nav {
         display: flex;
     }
@@ -187,11 +189,11 @@ footer div p {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
         padding-left: 750px;
-        font-size: 20px;
+        font-size: 30px;
         position: relative;
     }
     em {
-        font-size: 15px;
+        font-size: 20px;
         color: #ffffff;
         padding-left: 5px;
     }
@@ -233,6 +235,88 @@ footer div p {
     }
 }
 
+
+/*media query for max-width 1000px*/
+
+@media screen and (max-width: 1000px) {
+    body{
+        overflow: scroll;
+    }
+    nav #top-nav {
+        display: flex;
+    }
+    div ul li {
+        display: inline;
+    }
+    div ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 30px;
+        padding-top: 20px;
+        text-shadow: 10px 10px 10px black;
+    }
+    header div p {
+        color: rgb(200, 42, 69);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 0px;
+        padding-left: 500px;
+        font-size: 40px;
+        position: relative;
+    }
+    em {
+        font-size: 15px;
+        color: #ffffff;
+        padding-left: 5px;
+    }
+
+    div .images {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    div img {
+        margin-right: 20px;
+        border-radius: 50%;
+        margin-top: 20px;
+        width: 100px;
+    }
+    button {
+        background-color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        float: right;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    div .footer-right1 {
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+    div .footer-right2 {
+        margin-top: 60px;
+        margin-left: 60px;
+        text-align: center;
+    }
+    #copyright {
+        color: #ffffff;
+        padding-left: 20px;
+    }
+    #designed {
+        color: #ffffff;
+        padding-right: 10px;
+        float: right;
+    }
+}
+
+/*media query with max-width 650px*/
+
 @media screen and (max-width: 650px) {
     nav #top-nav {
         display: flex;
@@ -249,10 +333,19 @@ footer div p {
         padding-top: 20px;
         text-shadow: 10px 10px 10px black;
     }
+    .subscription-btn {
+        padding: 3px 10px 3px 10px;
+        color: rgb(200, 42, 69);
+        box-shadow: 2px 2px grey;
+        border-radius: 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
     #logo {
         width: 80px;
         height: 80px;
-        padding-right: 20px;
+        padding-right: 10px;
     }
     hr {
         align-self: center;
@@ -260,22 +353,22 @@ footer div p {
         margin-right: 100px;
     }
     div img {
-        width: 100px;
-        margin-right: 20px;
+        width: 50px;
+        margin-right: 6px;
         border-radius: 50%;
         margin-top: 20px;
     }
     button {
         background-color: #ffffff;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         margin-right: 10px;
         float: right;
         border-radius: 10px;
         cursor: pointer;
-        font-size: x-large;
+        font-size: 20px;
     }
     header div p {
         color: rgb(200, 42, 69);
@@ -286,13 +379,30 @@ footer div p {
         font-size: 40px;
         position: relative;
     }
+    div .images {
+        text-align: center;
+        font-size: 10px;
+        padding: 20px;
+    }
     #copyright {
         color: #ffffff;
-        padding-left: 20px;
+        padding-left: 10px;
+        font-size: 10px;
     }
     #designed {
         color: #ffffff;
-        padding-left: 20px;
+        padding-left: 10px;
         float: left;
+        font-size: 10px;
+    }
+    div .footer-right2 {
+        margin-top: 60px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    div .footer-right1 {
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 10px;
     }
 }
