@@ -13,7 +13,7 @@ This is a website project based on a music band called Muziki na Chagala.The pro
 6)Publisihing of the project on Github using Github-pages.
 
 ## Live-Link
-
+https://kaburu12.github.io/muziki-project/
 
 ## Technology-Used
 HTML tags and elements -which was used to develope the structure of the pages. 

@@ -1,48 +1,46 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'roboto';
-	background: #7b4397;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    background: #7b4397;
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
     background: linear-gradient(to right, #dc2430, #7b4397);
-
 }
 
-nav #top-nav{
-	display: flex;
+nav #top-nav {
+    display: flex;
 }
 
-#logo{
-	width: 150px;
-	height: 150px;
-	padding-right: 100px;
+#logo {
+    width: 150px;
+    height: 150px;
+    padding-right: 100px;
 }
 
-div .nav-right{
-	margin-top: 30px;
+div .nav-right {
+    margin-top: 30px;
 }
 
 div ul li {
     display: inline;
 }
 
-.subscription-btn{
-	padding: 3px 10px 3px 10px;
-	color: rgb(200,42,69);
-	box-shadow: 2px 2px grey ;
-	border-radius: 5px;
-	font-size: 20px;
-	cursor: pointer;
-
+.subscription-btn {
+    padding: 3px 10px 3px 10px;
+    color: rgb(200, 42, 69);
+    box-shadow: 2px 2px grey;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-header{
-		background-image: url(/assets/images/header.J1.jpg);
-		background-size: cover;
-		background-position: center;
-		height: 70vh;
-		margin: 0;
-	}
+header {
+    background-image: url(../images/header.J1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: 0;
+}
 
 div ul li a {
     text-decoration: none;
@@ -54,259 +52,247 @@ div ul li a {
     text-shadow: 10px 10px 10px black;
 }
 
-header div p{
-	color: rgb(200,42,69);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding-top: 0px;
-padding-left: 750px;
-font-size: 40px;
-position: relative;
+header div p {
+    color: rgb(200, 42, 69);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 0px;
+    padding-left: 750px;
+    font-size: 40px;
+    position: relative;
 }
 
-em{
-	font-size: x-large;
-	color: #ffffff;
-	padding-left: 8px;
+em {
+    font-size: x-large;
+    color: #ffffff;
+    padding-left: 8px;
 }
 
-button{
-	background-color:#ffffff;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-right: 20px;
-	margin-top: 30px;
-	float: right;
-	border-radius: 10px;
-	cursor: pointer;
-	font-size: x-large;
+button {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    float: right;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: x-large;
 }
 
-span{
-	color: rgb(200,42,69);
+span {
+    color: rgb(200, 42, 69);
 }
 
-h2{
-	padding-left: 20px;
-	font-size: 30px;
-	text-align: center;
-	
+h2 {
+    padding-left: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
-hr{
-	align-self: center;
-	margin-left: 300px;
-	margin-right: 300px;
-	
+hr {
+    align-self: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-div .about p{
-	padding-left: 20px;
-	font-size: 17px;
-	color: #ffffff;
-	text-align: center;
+div .about p {
+    padding-left: 20px;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
 }
 
-div #band-members{
-	display: flex;
-	justify-content: center;
+div #band-members {
+    display: flex;
+    justify-content: center;
 }
 
-div .members{
-	text-align: center;
+div .members {
+    text-align: center;
 }
 
-div img{
-margin-right: 20px;
-border-radius: 50%;
-margin-top: 20px;
+div img {
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
 
-div .images{
-	text-align: center;
+div .images {
+    text-align: center;
 }
 
-iframe{
-	width: 100%;
+iframe {
+    width: 100%;
 }
 
-#footer-cont{
-	background-color:#000;
-	padding-bottom: 20px;
+#footer-cont {
+    background-color: #000;
+    padding-bottom: 20px;
 }
 
-
-div.main_footer{
-	color: #ffffff;
-	display: flex;
+div.main_footer {
+    color: #ffffff;
+    display: flex;
 }
 
-div #icon{
-	width: 30px;
+div #icon {
+    width: 30px;
 }
 
-div .footer-right1{
-	margin-top: 70px;
-	margin-left: 250px;
+div .footer-right1 {
+    margin-top: 70px;
+    margin-left: 250px;
 }
 
-div .footer-right2{
-	margin-top: 60px;
-	margin-left: 300px;
-	
+div .footer-right2 {
+    margin-top: 60px;
+    margin-left: 300px;
 }
 
-footer div p{
-	color: #ffffff;
+footer div p {
+    color: #ffffff;
 }
 
-#copyright{
-	color: #ffffff;
-	padding-left: 40px;
+#copyright {
+    color: #ffffff;
+    padding-left: 40px;
 }
 
-#designed{
-	color: #ffffff;
-	padding-right: 100px;
-	float: right;
+#designed {
+    color: #ffffff;
+    padding-right: 100px;
+    float: right;
 }
 
 @media screen and (max-width: 1100px) {
-	nav #top-nav{
-		display: flex;
-	}
-	div ul li {
-		display: inline;
-	}
-	div ul li a {
-		text-decoration: none;
-		color: white;
-		font-weight: 900;
-		font-size: 20px;
-		padding-right: 30px;
-		padding-top: 20px;
-		text-shadow: 10px 10px 10px black;
-	}
-	header div p{
-	color: rgb(200,42,69);
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	padding-top: 0px;
-	padding-left: 750px;
-	font-size: 20px;
-	position: relative;
-	}
-	
-    em{
-		font-size: 15px;
-		color: #ffffff;
-		padding-left: 5px;
-	}
-	div img{
-		margin-right: 20px;
-		border-radius: 50%;
-		margin-top: 20px;
-		width: 100px;
-		}
-	button{
-		background-color:#ffffff;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		margin-right: 10px;
-		float: right;
-		border-radius: 10px;
-		cursor: pointer;
-		font: size 15px;;
-	}
-	div .footer-right1{
-		margin-top: 70px;
-		margin-left: 100px;
-	}
-
-	div .footer-right2{
-		margin-top: 60px;
-		margin-left: 100px;
-		
-	}
-
-	#copyright{
-		color: #ffffff;
-		padding-left: 20px;
-	}
-	
-	#designed{
-		color: #ffffff;
-		padding-right: 80px;
-		float: right;
-	}
+    nav #top-nav {
+        display: flex;
+    }
+    div ul li {
+        display: inline;
+    }
+    div ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 30px;
+        padding-top: 20px;
+        text-shadow: 10px 10px 10px black;
+    }
+    header div p {
+        color: rgb(200, 42, 69);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 0px;
+        padding-left: 750px;
+        font-size: 20px;
+        position: relative;
+    }
+    em {
+        font-size: 15px;
+        color: #ffffff;
+        padding-left: 5px;
+    }
+    div img {
+        margin-right: 20px;
+        border-radius: 50%;
+        margin-top: 20px;
+        width: 100px;
+    }
+    button {
+        background-color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        float: right;
+        border-radius: 10px;
+        cursor: pointer;
+        font: size 15px;
+        ;
+    }
+    div .footer-right1 {
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+    div .footer-right2 {
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    #copyright {
+        color: #ffffff;
+        padding-left: 20px;
+    }
+    #designed {
+        color: #ffffff;
+        padding-right: 80px;
+        float: right;
+    }
 }
 
 @media screen and (max-width: 650px) {
-	nav #top-nav{
-		display: flex;
-	}
-	div ul li {
-		display: inline;
-	}
-	div ul li a {
-		text-decoration: none;
-		color: white;
-		font-weight: 900;
-		font-size:10px;
-		padding-right: 20px;
-		padding-top: 20px;
-		text-shadow: 10px 10px 10px black;
-	}
-	#logo{
-		width: 80px;
-		height: 80px;
-		padding-right: 20px;
-	}
-	hr{
-		align-self: center;
-		margin-left: 100px;
-		margin-right: 100px;
-		
-	}
-	div img{
-		width: 100px;
-	margin-right: 20px;
-	border-radius: 50%;
-	margin-top: 20px;
-	}
-	button{
-		background-color:#ffffff;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		margin-right: 10px;
-		float: right;
-		border-radius: 10px;
-		cursor: pointer;
-		font-size: x-large;
-	}
-	header div p{
-		color: rgb(200,42,69);
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 10px;
-	padding-top: 0px;
-padding-left: 10px;
-font-size: 40px;
-position: relative;
-	}
-	
-	#copyright{
-		color: #ffffff;
-		padding-left: 20px;
-	}
-	
-	#designed{
-		color: #ffffff;
-		padding-left:20px;
-		float: left;
-
-	}
+    nav #top-nav {
+        display: flex;
+    }
+    div ul li {
+        display: inline;
+    }
+    div ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+        font-size: 10px;
+        padding-right: 20px;
+        padding-top: 20px;
+        text-shadow: 10px 10px 10px black;
+    }
+    #logo {
+        width: 80px;
+        height: 80px;
+        padding-right: 20px;
+    }
+    hr {
+        align-self: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    div img {
+        width: 100px;
+        margin-right: 20px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    button {
+        background-color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        float: right;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: x-large;
+    }
+    header div p {
+        color: rgb(200, 42, 69);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        padding-top: 0px;
+        padding-left: 10px;
+        font-size: 40px;
+        position: relative;
+    }
+    #copyright {
+        color: #ffffff;
+        padding-left: 20px;
+    }
+    #designed {
+        color: #ffffff;
+        padding-left: 20px;
+        float: left;
+    }
 }
