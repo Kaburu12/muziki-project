@@ -1,8 +1,8 @@
-# Computer Club Quiz Board
+# Muziki Na Chagala Band
 This is a music band website .
 
 ## Description
-This is a website project based on a music band called Muziki na Chagala.The project uses the HTML ,CSS and JAVA SCRIPT languages to program this quiz board.
+This is a website project based on a music band called Muziki na Chagala.The project uses the HTML ,CSS and JAVA SCRIPT languages to program this site.
 
 ## Project-Setup-Instructions
 1)Installation of the Visual studio code 

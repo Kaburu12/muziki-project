@@ -158,6 +158,7 @@
         border-radius: 50%;
         margin-top: 20px;
     }
+    /*media query with max-width 650px*/
     
     @media screen and (max-width: 650px) {
         nav #top-nav {
@@ -175,10 +176,18 @@
             padding-top: 20px;
             text-shadow: 10px 10px 10px black;
         }
+        .subscription-btn {
+            padding: 3px 10px 3px 10px;
+            color: rgb(200, 42, 69);
+            box-shadow: 2px 2px grey;
+            border-radius: 5px;
+            font-size: 10px;
+            cursor: pointer;
+        }
         #logo {
             width: 80px;
             height: 80px;
-            padding-right: 20px;
+            padding-right: 10px;
         }
         hr {
             align-self: center;
@@ -186,54 +195,42 @@
             margin-right: 100px;
         }
         div img {
-            width: 100px;
-            margin-right: 20px;
+            width: 50px;
+            margin-right: 6px;
             border-radius: 50%;
             margin-top: 20px;
         }
         button {
             background-color: #ffffff;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
             margin-right: 10px;
             float: right;
             border-radius: 10px;
             cursor: pointer;
-            font-size: x-large;
-        }
-        header div p {
-            color: rgb(200, 42, 69);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 10px;
-            padding-top: 0px;
-            padding-left: 10px;
-            font-size: 40px;
-            position: relative;
+            font-size: 20px;
         }
         #copyright {
             color: #ffffff;
-            padding-left: 20px;
+            padding-left: 10px;
+            font-size: 10px;
         }
         #designed {
             color: #ffffff;
-            padding-left: 20px;
+            padding-left: 10px;
             float: left;
+            font-size: 10px;
         }
-        .back,
-        .forward {
-            cursor: pointer;
-            position: absolute;
-            top: 70%;
-            width: auto;
-            margin-top: 22px;
-            padding: 16px;
-            font-weight: 900;
-            font-size: 18px;
-            transition: 0.6s ease;
-            user-select: none;
-            border-style: double;
-            background-color: #7b4397;
+        div .footer-right2 {
+            margin-top: 60px;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        div .footer-right1 {
+            margin-top: 70px;
+            margin-left: 20px;
+            font-size: 10px;
         }
     }
