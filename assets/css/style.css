@@ -183,7 +183,13 @@ footer div p {
     float: right;
 }
 
-
+.about{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: semi-bold;
+}
 /*media query with max width 1200px*/
 
 @media screen and (max-width: 1200px) {
